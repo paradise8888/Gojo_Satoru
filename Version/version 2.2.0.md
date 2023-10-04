@@ -1,4 +1,4 @@
-# V 2.1.1
+# V 2.2.0
 ### Changes made:
 - Added `AFK` support.
 - Added `Captcha verification` for new joined members.
