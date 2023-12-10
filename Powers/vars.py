@@ -11,32 +11,6 @@ class Config:
     """Config class for variables."""
 
     LOGGER = True
-    BOT_TOKEN = config("BOT_TOKEN", default=None)
-    API_ID = int(config("API_ID", default="123"))
-    API_HASH = config("API_HASH", default=None)
-    OWNER_ID = int(config("OWNER_ID", default=1344569458))
-    MESSAGE_DUMP = int(config("MESSAGE_DUMP"))
-    DEV_USERS = [
-        int(i)
-        for i in config(
-            "DEV_USERS",
-            default="",
-        ).split(None)
-    ]
-    SUDO_USERS = [
-        int(i)
-        for i in config(
-            "SUDO_USERS",
-            default="",
-        ).split(None)
-    ]
-    WHITELIST_USERS = [
-        int(i)
-        for i in config(
-            "WHITELIST_USERS",
-            default="",
-        ).split(None)
-    ]
     GENIUS_API_TOKEN = config("GENIUS_API",default=None)
     AuDD_API = config("AuDD_API",default=None)
     RMBG_API = config("RMBG_API",default=None)
